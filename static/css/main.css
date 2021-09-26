@@ -34,6 +34,15 @@ h1 {
     font-weight: 400;
 }
 
+ul {
+    text-align: left;
+}
+
+li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
 h1.main-header {
     font-size: 2rem;
     padding-top: 0;
@@ -51,8 +60,17 @@ p.topic {
     font-size: 1.5rem;
 }
 
+p.modern {
+    font-size: 1.2rem;
+}
+
+a.modern {
+    color: aqua;
+}
+
 .blue {
     background-color: var(--main-blue-color);
+    padding-bottom: 20px;
 }
 
 .pink {
@@ -69,6 +87,9 @@ p.topic {
 
 .dark {
     background-color: var(--main-dark-color);
+    min-height: 100px;
+    padding-bottom: 20px;
+    padding-top: 120px;
 }
 
 p.copyright {
@@ -101,7 +122,7 @@ p.copyright {
     padding-bottom: 20px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
     .column {
         width: 100%;
     }
@@ -126,5 +147,25 @@ p.copyright {
 }
 
 .custom-shape-divider-top-1632109584 .shape-fill {
+    fill: var(--main-dark-color);
+}
+
+.custom-shape-divider-top-1632109585 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1632109585 svg {
+    position: relative;
+    display: block;
+    width: calc(140% + 1.3px);
+    height: 191px;
+}
+
+.custom-shape-divider-top-1632109585 .shape-fill {
     fill: var(--main-blue-color);
 }
