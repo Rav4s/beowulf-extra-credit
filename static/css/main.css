@@ -1,0 +1,69 @@
+/*Main Stylesheet*/
+
+/* Vars */
+
+:root {
+    --main-blue-color: #3c31dd;
+    --main-red-color: #dd3f31;
+    --main-pink-color: #ff0066;
+    --main-dark-color: #0f0f10;
+}
+
+/* Styles */
+
+html {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+body {
+    margin: 0;
+    color: white;
+    background-color: #202731;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+
+.blue {
+    background-color: var(--main-blue-color);
+}
+
+.pink {
+    background-color: var(--main-pink-color);
+}
+
+.red {
+    background-color: var(--main-red-color);
+}
+
+.dark {
+    background-color: var(--main-dark-color);
+}
+
+/* SVG Dividers */
+
+.custom-shape-divider-top-1632109584 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1632109584 svg {
+    position: relative;
+    display: block;
+    width: calc(140% + 1.3px);
+    height: 191px;
+}
+
+.custom-shape-divider-top-1632109584 .shape-fill {
+    fill: var(--main-blue-color);
+}
