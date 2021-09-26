@@ -26,8 +26,24 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 400px;
+    min-height: 200px;
     padding: 100px 20vw;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+h1.main-header {
+    font-size: 2rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+p.topic {
+    font-size: 1.5rem;
 }
 
 .blue {
@@ -40,10 +56,17 @@ section {
 
 .red {
     background-color: var(--main-red-color);
+    min-height: 20px;
+    padding: 10px 20vw;
 }
 
 .dark {
     background-color: var(--main-dark-color);
+}
+
+p.copyright {
+    text-align: center;
+    font-size: 1rem;
 }
 
 /* SVG Dividers */
