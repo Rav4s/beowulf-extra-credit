@@ -7,6 +7,7 @@
     --main-red-color: #dd3f31;
     --main-pink-color: #ff0066;
     --main-dark-color: #0f0f10;
+    --main-purple-color: #B10DC9;
     --main-orange-color: #FF851B;
 }
 
@@ -59,6 +60,13 @@ h2.poem {
 
 p.topic {
     font-size: 1.5rem;
+    padding-top: 0;
+    margin-top: 0.2rem;
+}
+
+p.author {
+    font-size: 1.5rem;
+    margin-top: 1rem;
 }
 
 p.modern {
@@ -95,6 +103,13 @@ a.modern {
 
 .orange {
     background-color: var(--main-orange-color);
+    min-height: 100px;
+    padding-bottom: 20px;
+    padding-top: 120px;
+}
+
+.purple {
+    background-color: var(--main-purple-color);
     min-height: 100px;
     padding-bottom: 20px;
     padding-top: 120px;
