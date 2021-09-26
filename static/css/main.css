@@ -42,6 +42,11 @@ h1.main-header {
     margin-bottom: 10px;
 }
 
+h2.poem {
+    font-size: 1.5rem;
+    font-weight: 350;
+}
+
 p.topic {
     font-size: 1.5rem;
 }
@@ -52,6 +57,8 @@ p.topic {
 
 .pink {
     background-color: var(--main-pink-color);
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .red {
@@ -67,6 +74,37 @@ p.topic {
 p.copyright {
     text-align: center;
     font-size: 1rem;
+}
+
+/* Responsive Table */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: auto;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 0px;
+    min-height: 100px;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
 }
 
 /* SVG Dividers */
