@@ -212,3 +212,23 @@ p.copyright {
 .custom-shape-divider-top-1632109586 .shape-fill {
     fill: var(--main-pink-color);
 }
+
+.custom-shape-divider-top-1632109587 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1632109587 svg {
+    position: relative;
+    display: block;
+    width: calc(140% + 1.3px);
+    height: 191px;
+}
+
+.custom-shape-divider-top-1632109587 .shape-fill {
+    fill: var(--main-orange-color);
+}
