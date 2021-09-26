@@ -95,6 +95,9 @@ a.modern {
 
 .orange {
     background-color: var(--main-orange-color);
+    min-height: 100px;
+    padding-bottom: 20px;
+    padding-top: 120px;
 }
 
 p.copyright {
