@@ -7,6 +7,7 @@
     --main-red-color: #dd3f31;
     --main-pink-color: #ff0066;
     --main-dark-color: #0f0f10;
+    --main-orange-color: #FF851B;
 }
 
 /* Styles */
@@ -92,6 +93,10 @@ a.modern {
     padding-top: 120px;
 }
 
+.orange {
+    background-color: var(--main-orange-color);
+}
+
 p.copyright {
     text-align: center;
     font-size: 1rem;
@@ -168,4 +173,24 @@ p.copyright {
 
 .custom-shape-divider-top-1632109585 .shape-fill {
     fill: var(--main-blue-color);
+}
+
+.custom-shape-divider-top-1632109586 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1632109586 svg {
+    position: relative;
+    display: block;
+    width: calc(140% + 1.3px);
+    height: 191px;
+}
+
+.custom-shape-divider-top-1632109586 .shape-fill {
+    fill: var(--main-pink-color);
 }
